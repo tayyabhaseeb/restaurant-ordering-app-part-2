@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Karla google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/header.png" />
+    </header>
+    <section class="section" id="sectionOne">
+      <!-- Ingredients -->
+    </section>
+    <section class="section-two">
+      <div class="container" id="container">
+        <h2 class="center">Your Order</h2>
+
+        <div class="inner-container" id="inner-container">
+          <!-- Render Section Two -->
+        </div>
+
+        <hr class="break-line" />
+        <div id="footer-container">
+          <div class="inner-three">
+            <h2>Total Price:</h2>
+            <h3 class="child-three">0$</h3>
+          </div>
+        </div>
+        <button class="submit" id="Complete-order">Complete Order</button>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal-inner-container">
+        <h2>Enter Your Card Details</h2>
+        <form class="consent-form" id="consent-form">
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="input"
+            name="name"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Enter your card number"
+            class="input"
+            name="password"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Enter CVV"
+            class="input"
+            name="CVV"
+            required
+          />
+          <button class="pay-btn" id="pay" type="submit">Pay</button>
+        </form>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
